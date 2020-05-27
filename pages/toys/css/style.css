@@ -30,9 +30,9 @@
 }
 
 .slider:hover {
-  -webkit-transition: .2s;
-  opacity: .9;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  opacity: 0.9;
+  transition: opacity 0.2s;
 }
 
 .slider::-webkit-slider-thumb {
@@ -51,8 +51,8 @@
   margin: 16px -11px 0 -5px;
 }
 
-.filter-field{
-	background-color: rgba(125, 151, 218, 0.2);
+.filter-field {
+  background-color: rgba(125, 151, 218, 0.2);
 }
 
 .filter-legend {
@@ -76,43 +76,43 @@
 }
 
 fieldset {
-  border:0 none;
+  border: 0 none;
 }
 
 /*checkbox*/
 
 .form-checkbox:checked + .form-checkbox-indicator:after {
-  background: url(/img/Check.svg) no-repeat; 
-  background-color: #FFFFFF;
+  background: url(/img/Check.svg) no-repeat;
+  background-color: #ffffff;
 }
 
 .form-checkbox-indicator {
-	padding-left: 30px;
+  padding-left: 30px;
   margin-right: 8px;
 }
 
 .form-checkbox-indicator:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 19px;
   width: 19px;
-  border: 2px solid #C29974;
-	border-radius: 3px;
+  border: 2px solid #c29974;
+  border-radius: 3px;
 }
 
 .checkbox-label {
   position: relative;
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
   padding-bottom: 20px;
   cursor: pointer;
 }
 
 .checkbox-label:hover {
   text-decoration: underline;
-  }
+}
 
 input:focus + .form-checkbox-indicator {
   outline-color: rgb(77, 144, 254);
@@ -122,24 +122,24 @@ input:focus + .form-checkbox-indicator {
 }
 
 .form-checkbox:disabled + .form-checkbox-indicator:after {
-  border: 2px solid #E1CDBA;
+  border: 2px solid #e1cdba;
 }
 
 .form-checkbox:disabled + .form-checkbox-indicator:after {
-  background: url(/img/Check_disabled.svg) no-repeat; 
+  background: url(/img/Check_disabled.svg) no-repeat;
 }
 
 /*radio*/
 
 .radio-label {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
   padding-bottom: 16px;
   cursor: pointer;
 }
 
 .radio-label:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .form-radio-indicator {
@@ -149,19 +149,19 @@ text-decoration: underline;
 }
 
 .form-radio-indicator:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   display: block;
   height: 20px;
-	width: 20px;
-	border: 2px solid #C29974;
-	border-radius: 100%;
+  width: 20px;
+  border: 2px solid #c29974;
+  border-radius: 100%;
 }
 
 .form-radio:checked + .form-radio-indicator:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -169,7 +169,7 @@ text-decoration: underline;
   height: 12px;
   width: 12px;
   border-radius: 100%;
-  background-color: #C29974;
+  background-color: #c29974;
 }
 
 input:focus + .form-radio-indicator {
@@ -180,11 +180,11 @@ input:focus + .form-radio-indicator {
 }
 
 .form-radio:disabled + .form-radio-indicator:before {
-  background-color: #E1CDBA;
+  background-color: #e1cdba;
 }
 
 .form-radio:disabled + .form-radio-indicator:after {
-  border: 2px solid #E1CDBA;
+  border: 2px solid #e1cdba;
 }
 
 /*radio-box*/
@@ -200,16 +200,16 @@ input:focus + .form-radio-indicator {
   width: 80px;
   padding-top: 9px;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: none;
 }
 
 .form-radio-box:checked + .form-radio-box-indicator {
-  background-color: #F3D0DB;
+  background-color: #f3d0db;
 }
 
 .form-radio-box:hover + .form-radio-box-indicator {
-  background-color: #EDDEEB;
+  background-color: #eddeeb;
 }
 
 input:focus + .form-radio-box-indicator {
@@ -235,7 +235,7 @@ input:focus + .form-radio-box-indicator {
 .products {
   padding: 0;
   margin-top: 0;
-  font-family: 'Montserrat', 'Candara', sans-serif;
+  font-family: "Montserrat", "Candara", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 49px;
@@ -248,22 +248,22 @@ input:focus + .form-radio-box-indicator {
 }
 
 .products {
-	font-family: 'Montserrat', 'Candara', sans-serif;
+  font-family: "Montserrat", "Candara", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 49px;
   text-transform: uppercase;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 .toy-item {
-	width: 380px;
+  width: 380px;
   position: relative;
   margin-bottom: 45px;
 }
 
 .toy-list {
-	display: flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -277,40 +277,40 @@ input:focus + .form-radio-box-indicator {
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 .toy-cost {
   display: flex;
   justify-content: center;
   padding-top: 16px;
-	font-weight: bold;
+  font-weight: bold;
   font-size: 16px;
   line-height: 22px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 .toy-select:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-	position: absolute;
-	top: 89px;
-	left: 87px;
-	width: 207px;
+  position: absolute;
+  top: 89px;
+  left: 87px;
+  width: 207px;
   height: 207px;
-  content: 'LEARN MORE';
-  color: #1E0606;
-  font-family: 'Montserrat', 'Candara', sans-serif;
+  content: "LEARN MORE";
+  color: #1e0606;
+  font-family: "Montserrat", "Candara", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 29px;
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-  background-color: #E5EAF8;
-  opacity: .9;
+  background-color: #e5eaf8;
+  opacity: 0.9;
 }
 
 .toy-select:active:before {
-  opacity: .67;
+  opacity: 0.67;
 }

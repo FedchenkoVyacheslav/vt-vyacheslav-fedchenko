@@ -10,11 +10,11 @@
   width: 100%;
   font-size: 18px;
   line-height: 25px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 .blog-date {
-	font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -24,18 +24,18 @@
 .blog-title {
   margin-top: 8px;
   margin-bottom: 15px;
-	font-family: 'Montserrat', 'Candara', sans-serif;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 31px;
-  color: #1E0606;
+  font-family: "Montserrat", "Candara", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1e0606;
 }
 
-.blog-link > .blog-title:hover {
-	text-decoration: underline;
+a:hover > .blog-title {
+  text-decoration: underline;
 }
-.blog-link > .blog-title:active {
-	text-decoration: underline;
+a:active > .blog-title {
+  text-decoration: underline;
 }
 
 .blog-text {
@@ -45,7 +45,7 @@
 }
 
 .blog-list {
-	display: flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 19px;
